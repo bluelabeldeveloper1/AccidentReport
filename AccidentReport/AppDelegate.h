@@ -11,5 +11,9 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) UILabel *lblHeading;
+@property (nonatomic) int selectedMenu;
+@property (assign) BOOL InfoFill;
+
 
 @end

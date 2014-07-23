@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
 
+@interface ViewController : UIViewController
+- (IBAction)btnSideMenuClicked:(id)sender;
+- (IBAction)btnHomeClicked:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *lblHead;
+@property (strong,nonatomic) NSMutableArray *arrMenu;
+@property (weak, nonatomic) IBOutlet UIView *mainContainerView;
+@property (weak, nonatomic) IBOutlet UIView *headerView;
+@property (weak, nonatomic) IBOutlet UIView *sideView;
+@property (weak, nonatomic) IBOutlet UITableView *tblMenu;
 @end
